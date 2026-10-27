@@ -1,113 +1,81 @@
 body {
-    font-family: Arial;
-    font-size: 17px;
+    background-color: #ffffff;
+    font-size: 16.5px;
     margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #111111;
 }
 
 section {
-    padding: 20px 85px;
-}
-
-h2 {
-    font-size: 36px;
-    margin: 0 0 12px 0;
-}
-
-p {
-    font-size: 19px;
-    margin: 0 0 12px 0;
-}
-
-img {
-    width: 100%;
+    padding: 22px 83px 19px 87px;
 }
 
 header {
-    background-color: #1f3f6e;
+    background-color:#1f3f6e;
     color: white;
     text-align: center;
-    padding: 10px 0 15px 0;
+    padding: 12px 0 14px 0;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 39px;
     margin: 0;
+}
+
+h2 {
+    margin:  0 0 13px 0;
+    font-size: 34.5px;
+}
+
+p {
+    font-size: 18.5px;
+    margin: 0 0 11px 0;
 }
 
 header p {
-    font-size: 22px;
-    margin: 0 0 12px 0;
+    margin: 0 0 13px 0;
+    font-size: 21.5px;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 nav ul {
+    padding: 0;
     list-style: none;
     margin: 0;
-    padding: 0;
 }
 
 nav li {
-    padding: 5px 0;
+    font-size: 16.5px;
+    padding: 4.5px 0;
 }
 
 nav a {
     color: white;
+    text-decoration: none;
 }
 
 nav a:hover {
-    color: #add8e6;
+    color: lightblue;
 }
 
 nav .enlace-inicio {
     background-color: #3a7bc8;
+    padding: 7.5px 48px;
+    border-radius: 5.5px;
     font-weight: bold;
-    padding: 8px 50px;
-    border-radius: 6px;
 }
 
 #inicio {
-    background-color: #e6f0fd;
+     background-color: #e6f0fd;
 }
 
 #inicio h2 {
     color: #1a3a6b;
-    border-bottom: 3px solid #3366cc;
-}
-
-#sobre-mi {
-    background-color: white;
-}
-
-#sobre-mi h2 {
-    color: #1a3a6b;
-    border-bottom: 3px solid #3366cc;
-}
-
-#aficiones {
-    background-color: #fce8e8;
-}
-
-#aficiones h2 {
-    color: #b71c2b;
-    border-bottom: 3px solid #cc2936;
-}
-
-.caja-aficion {
-    background-color: white;
-    border: 1px solid #cc2936;
-    border-radius: 8px;
-    padding: 7px 22px;
-    margin: 0 0 10px 0;
-}
-
-#aficiones h3 {
-    color: #8b0000;
-    font-size: 19px;
-    margin: 0;
-}
-
-#aficiones p {
-    font-size: 17px;
-    margin: 0;
+    border-bottom: 2.5px solid #3366cc;
 }
 
 #enlaces {
@@ -115,37 +83,78 @@ nav .enlace-inicio {
 }
 
 #enlaces h2 {
+    border-bottom: 3.2px solid #136013;
     color: #136013;
-    border-bottom: 3px solid #136013;
 }
 
 .caja-enlace {
     background-color: white;
-    border: 1px solid #2e8b2e;
-    border-radius: 8px;
-    padding: 3px 22px;
-    margin: 0 0 8px 0;
+    border: 0.9px solid #2e8b2e;
+    border-radius: 8.5px;
+    padding: 4px 23px 4px 21px;
+    margin-bottom: 7.5px;
+}
+
+#sobre-mi {
+    background-color: white;
+}
+
+#sobre-mi h2 {
+    border-bottom:  3.5px solid #1a3a6b;
+    color: #1a3a6b;
+}
+
+#aficiones {
+    background-color:#fce8e8;
+}
+
+#aficiones h2 {
+    color: #b71c2b;
+    border-bottom: 2.8px solid #cc2936;
+}
+
+.caja-aficion {
+    background-color: white;
+    border: 1.2px solid #cc2936;
+    padding: 8px 21px 6px 23px;
+    border-radius: 7.5px;
+    margin-bottom: 11px;
+}
+
+#aficiones h3  {
+    font-size: 18.5px;
+    color: darkred;
+    margin: 0;
+}
+
+#aficiones p {
+    font-size: 16.5px;
+    color: #000000;
+    margin: 0;
 }
 
 #enlaces a {
-    color: #136013;
+    color:#136013;
+    font-size: 16.5px;
+    text-decoration: none;
     font-weight: bold;
-    font-size: 17px;
 }
 
 #enlaces p {
-    font-size: 15px;
     margin: 0;
+    font-size: 14.5px;
+    color: black;
 }
 
 footer {
     background-color: #1f3f6e;
-    color: white;
+    color:  white;
     text-align: center;
-    padding: 10px;
+    padding: 11px;
 }
 
 footer p {
-    font-size: 15px;
-    margin: 0;
+  font-size: 14.5px;
+  margin: 0 ;
+  color: #ffffff;
 }
