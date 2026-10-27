@@ -1,0 +1,151 @@
+body {
+    font-family: Arial;
+    font-size: 17px;
+    margin: 0;
+}
+
+section {
+    padding: 20px 85px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 0 12px 0;
+}
+
+p {
+    font-size: 19px;
+    margin: 0 0 12px 0;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: #1f3f6e;
+    color: white;
+    text-align: center;
+    padding: 10px 0 15px 0;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    font-size: 22px;
+    margin: 0 0 12px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 5px 0;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #add8e6;
+}
+
+nav .enlace-inicio {
+    background-color: #3a7bc8;
+    font-weight: bold;
+    padding: 8px 50px;
+    border-radius: 6px;
+}
+
+#inicio {
+    background-color: #e6f0fd;
+}
+
+#inicio h2 {
+    color: #1a3a6b;
+    border-bottom: 3px solid #3366cc;
+}
+
+#sobre-mi {
+    background-color: white;
+}
+
+#sobre-mi h2 {
+    color: #1a3a6b;
+    border-bottom: 3px solid #3366cc;
+}
+
+#aficiones {
+    background-color: #fce8e8;
+}
+
+#aficiones h2 {
+    color: #b71c2b;
+    border-bottom: 3px solid #cc2936;
+}
+
+.caja-aficion {
+    background-color: white;
+    border: 1px solid #cc2936;
+    border-radius: 8px;
+    padding: 7px 22px;
+    margin: 0 0 10px 0;
+}
+
+#aficiones h3 {
+    color: #8b0000;
+    font-size: 19px;
+    margin: 0;
+}
+
+#aficiones p {
+    font-size: 17px;
+    margin: 0;
+}
+
+#enlaces {
+    background-color: #e8f5e8;
+}
+
+#enlaces h2 {
+    color: #136013;
+    border-bottom: 3px solid #136013;
+}
+
+.caja-enlace {
+    background-color: white;
+    border: 1px solid #2e8b2e;
+    border-radius: 8px;
+    padding: 3px 22px;
+    margin: 0 0 8px 0;
+}
+
+#enlaces a {
+    color: #136013;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#enlaces p {
+    font-size: 15px;
+    margin: 0;
+}
+
+footer {
+    background-color: #1f3f6e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 0;
+}
